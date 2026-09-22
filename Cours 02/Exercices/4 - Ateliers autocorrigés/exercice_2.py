@@ -1,8 +1,8 @@
 # =============================================================
 # Exercice 2 - Operateurs et lecture des erreurs (sections 2.4 a 2.6)
 #
-# Auteur : (inscris ton nom ici)
-# Date   : (inscris la date ici, format aaaa/mm/jj)
+# auteur: Steve Larochelle
+# Date: 08/27/26
 # Sujet  : Exercice 2 du cours 02
 #
 # CONSIGNE : remplace chaque None par ta reponse.
@@ -19,22 +19,22 @@
 # Fais l'exercice de tete AVANT de verifier dans Python.
 
 # A1) 17 / 5
-reponse_a1 = None
+reponse_a1 = 3.4
 
 # A2) 17 // 5
-reponse_a2 = None
+reponse_a2 = 3
 
 # A3) 17 % 5
-reponse_a3 = None
+reponse_a3 = 2
 
 # A4) -17 // 5   (attention : la troncature se fait vers le bas)
-reponse_a4 = None
+reponse_a4 = -4
 
 # A5) 10 / 2
-reponse_a5 = None
+reponse_a5 = 5
 
 # A6) Le type du resultat de 10 / 2, sous forme de chaine : "int" ou "float"
-reponse_a6 = None
+reponse_a6 : 5.0
 
 
 # -------------------------------------------------------------
@@ -49,14 +49,14 @@ reponse_a6 = None
 #     x //= 3    -> B3
 #     x %= 4     -> B4
 
-reponse_b1 = None
-reponse_b2 = None
-reponse_b3 = None
-reponse_b4 = None
+reponse_b1 = 8
+reponse_b2 = 16
+reponse_b3 = 5
+reponse_b4 = 1
 
 # B5) On part de y = 7, puis on applique  y /= 7
 #     Quelle est la valeur de y ? (attention au type!)
-reponse_b5 = None
+reponse_b5 = 1.0
 
 
 # -------------------------------------------------------------
@@ -71,9 +71,9 @@ SECONDES_PAR_MINUTE = 60
 MINUTES_PAR_HEURE = 60
 SECONDES_PAR_HEURE = SECONDES_PAR_MINUTE * MINUTES_PAR_HEURE
 
-nb_heures = None    # int
-nb_minutes = None   # int, entre 0 et 59
-nb_secondes = None  # int, entre 0 et 59
+nb_heures = DUREE_TOTALE_SECONDES//SECONDES_PAR_HEURE    # int = 2
+nb_minutes = DUREE_TOTALE_SECONDES//MINUTES_PAR_HEURE   # int, = 46
+nb_secondes = DUREE_TOTALE_SECONDES%SECONDES_PAR_MINUTE  # int, = 40 seccondes
 
 
 # -------------------------------------------------------------
